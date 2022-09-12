@@ -1,15 +1,11 @@
 package main
 
-import (
-	"fmt"
-)
-
 func BasicAtoi(s string) int {
-	transform := []rune(s)
-	for _, value := range transform {
-		return value
+	rune := []rune(s)
+	stringToInt := 0
+	for i := 0; i < len(rune); i++ {
+		stringToInt = stringToInt * 10
+		stringToInt = stringToInt + int(rune[i]) - 48
 	}
-}
-func main() {
-	fmt.Println(BasicAtoi("12345"))
+	return stringToInt
 }
