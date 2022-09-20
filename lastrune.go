@@ -1,4 +1,4 @@
-package piscine
+package main
 
 func LastRune(s string) rune {
 	length := len(s) - 1

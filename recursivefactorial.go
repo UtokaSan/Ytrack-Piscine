@@ -1,4 +1,4 @@
-package piscine
+package main
 
 func RecursiveFactorial(nb int) int {
 	if nb > 20 || nb < 0 {

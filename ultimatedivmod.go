@@ -1,4 +1,4 @@
-package piscine
+package main
 
 func UltimateDivMod(a *int, b *int) {
 	temp := *a / *b
