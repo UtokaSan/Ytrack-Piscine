@@ -1,4 +1,4 @@
-package main
+package piscine
 
 func IsUpper(s string) bool {
 	for _, letter := range s {

@@ -1,4 +1,4 @@
-package main
+package piscine
 
 func index(s string, toFind string) int {
 	for i := 0; i < len(s); i++ {
